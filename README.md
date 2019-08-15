@@ -4,17 +4,17 @@ languages:
 - csharp
 products:
 - azure
-services: Container-Instance
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Container-Instance
+- platforms: dotnet
 ---
 
 # Manage Azure Container Instances with new Azure File Share using C# #
 
-          Azure Container Instance sample for managing container instances with Azure File Share mount.
-             - Create an Azure container instance using Docker image "seanmckenna/aci-hellofiles" with a mount to a new file share
-             - Retrieve container log content
-             - Delete the container group resource
+ Azure Container Instance sample for managing container instances with Azure File Share mount.
+    - Create an Azure container instance using Docker image "seanmckenna/aci-hellofiles" with a mount to a new file share
+    - Retrieve container log content
+    - Delete the container group resource
 
 
 ## Running this Sample ##
