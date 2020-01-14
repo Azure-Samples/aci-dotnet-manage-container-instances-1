@@ -7,10 +7,9 @@ products:
 extensions:
 - services: Container-Instance
 - platforms: dotnet
-description: "Azure Container Instance sample for managing container instances with Azure File Share mount."
 ---
 
-# Manage Azure Container Instances with new Azure File Share using C#
+# Manage Azure Container Instances with new Azure File Share using C# #
 
  Azure Container Instance sample for managing container instances with Azure File Share mount.
     - Create an Azure container instance using Docker image "seanmckenna/aci-hellofiles" with a mount to a new file share
@@ -18,7 +17,7 @@ description: "Azure Container Instance sample for managing container instances w
     - Delete the container group resource
 
 
-## Running this Sample
+## Running this Sample ##
 
 To run this sample:
 
@@ -32,7 +31,7 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
 
     bin\Debug\net452\ManageWithAzureFileShareMount.exe
 
-## More information
+## More information ##
 
 [Azure Management Libraries for C#](https://github.com/Azure/azure-sdk-for-net/tree/Fluent)
 [Azure .Net Developer Center](https://azure.microsoft.com/en-us/develop/net/)
